@@ -55,11 +55,11 @@ for i in range(160 + 40):
         turtle.forward(70)
         turtle.end_fill()
 
-# Escribe "Te Quiero" en la parte superior del girasol
+# Escribe "Te Amo Adriana" en la parte superior del girasol
 turtle.penup()
 turtle.goto(0, 100)  # Ajusta la posición vertical según sea necesario
 turtle.color("Red")  # Color del texto
-turtle.write("Te Quiero", align="center", font=("Arial", 24, "bold"))
+turtle.write("Te Amo Adriana", align="center", font=("Arial", 24, "bold"))
 
 # Oculta el cursor de la tortuga antes de salir
 turtle.hideturtle()
